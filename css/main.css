@@ -1,0 +1,83 @@
+/* GLOBALES  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* =======================================MENU================================ */
+
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* ====================SLIDER DE IMAGENES========================== */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+/* SERVICIOS */
+
+.servicio-fila {
+    text-align: center;
+}
+
+
+/* MAPA */
+
+#map {
+    width: 100% !important;
+    height: 500px !important;
+}
+
+
+/* BACKGROUND FINAL */
+
+#bg-final {
+    position: relative;
+}
+
+footer {
+    background-color: #0099ff;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+#iconos {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ==================MEDIA QUERIES PANTALLA SM================== */
+
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
